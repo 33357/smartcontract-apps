@@ -1,4 +1,4 @@
-# smartcontract-apps-public
+# smartcontract-apps
 这是一个面向中文社区，分析市面上智能合约应用的架构与实现的仓库。
 
 ## 智能合约应用方向
