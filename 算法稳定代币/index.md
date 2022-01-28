@@ -12,7 +12,7 @@
 
 ## 经典应用
 
-- MakerDAO
+- [MakerDAO](./MakerDAO/index.md)
 
 - AMPL
 
