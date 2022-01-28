@@ -14,7 +14,7 @@
 
 ## 经典应用
 
-- AAVE
+- [AAVE](./AAVE/index.md)
 
 - Compound
 
