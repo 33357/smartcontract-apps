@@ -70,3 +70,9 @@
 
 如果对此事有更大的兴趣，欢迎加入wx社群
 wx号:im33357(备注：sc-apps)
+
+## 通知推送
+
+twitter：[im33357dr](https://twitter.com/im33357dr)
+
+微博：[我是33357](https://weibo.com/u/5933263714)
