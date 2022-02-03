@@ -4,11 +4,11 @@
 
 ## 智能合约应用领域
 
-- [去中心化交易所](./去中心化交易所/index.md)
-- [去中心化借贷](./去中心化借贷/index.md)
-- [机枪池](./机枪池/index.md)
-- [算法稳定代币](./算法稳定代币/index.md)
-- [NFT发行](./NFT发行/index.md)
+- [去中心化交易所](./DEX/index.md)
+- [去中心化借贷](./Loan/index.md)
+- [机枪池](./GunPool/index.md)
+- [算法稳定代币](./StableCoin/index.md)
+- [NFT发行](./NFT/index.md)
 - 质押挖矿
 - 代币发行
 - 去中心化游戏
