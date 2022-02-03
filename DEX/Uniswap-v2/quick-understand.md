@@ -19,8 +19,8 @@
 Uniswap-v2 使用了恒定乘积做市模型来实现自动化做市商。其计算步骤如下：
 
 1. 甲在 Uniswap-v2 上提供了 1000 个 TokenA 和 100 个 TokenB 作为流动池，计乘数 Kab = 1000 * 100 = 100000
-2. 乙想要在 Uniswap-v2 上使用 100 个 TokenA 兑换 TokenB，那么 Uniswap-v2 会首先计算交易后流动池会有 1000 + 100 = 1100 个 TokenA；为了维持 Kab 的不变，就需要 TokenB 的数量减少为 100000/1100 = 90.909... 。因此，Uniswap-v2 会给乙兑换出100 - 90.909 = 9.091 个 TokenB 。
-3. 乙成功地使用 100 个 TokenA 在 Uniswap-v2 上兑换了 9.091 个 TokenB。可以预见的是，根据这套算法，乙需要兑换的 TokenA 越多，平均每个 TokenA 能兑换的 TokenB 就会越少。这就产生了滑点的概念。
+2. 乙想要在 Uniswap-v2 上使用 1000 个 TokenA 兑换 TokenB，那么 Uniswap-v2 会首先计算交易后流动池会有 1000 + 1000 = 2000 个 TokenA；为了维持 Kab 的不变，就需要 TokenB 的数量减少为 100000/2000 = 50 。因此，Uniswap-v2 会给乙兑换出100 - 50 = 50 个 TokenB 。
+3. 乙成功地使用 1000 个 TokenA 在 Uniswap-v2 上兑换了 50 个 TokenB。可以预见的是，根据这套算法，乙需要兑换的 TokenA 越多，平均每个 TokenA 能兑换的 TokenB 就会越少。这就产生了滑点的概念。
 
 简化公式：(TokenA余额 + 你出售的TokenA)*(TokenB余额 - 你获得的TokenB) = 常数K
 
