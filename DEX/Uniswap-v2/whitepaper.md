@@ -176,12 +176,19 @@ Uniswap v1是一个例外。因为每个Uniswap v1交易对包含了ETH作为其
 
 如果储备余额超过了​，任何swap函数调用都会失败（由于_update()函数中的检查逻辑）。要从这个状态中恢复，任何用户都可以调用skim()函数从流动性池中删除超出的资产。
 
-引用
-[1] Hayden Adams. 2018. url: https://hackmd.io/@477aQ9OrQTCbVR3fq1Qzxg/HJ9jLsfTz?type=view.
+## 引用
+[1] [Hayden Adams. 2018](https://hackmd.io/@477aQ9OrQTCbVR3fq1Qzxg/HJ9jLsfTz?type=view).
+
 [2] Guillermo Angeris et al. An analysis of Uniswap markets. 2019. arXiv: 1911.03380[q-fin.TR].
-[3] samczsun. Taking undercollateralized loans for fun and for profit. Sept. 2019. url:https://samczsun.com/taking-undercollateralized-loans-for-fun-and-for-profit/.
-[4] Fabian Vogelsteller and Vitalik Buterin. Nov. 2015. url: https://eips.ethereum.org/EIPS/eip-20.
-[5] Jordi Baylina Jacques Dafflon and Thomas Shababi. EIP 777: ERC777 Token Standard.Nov. 2017. url: https://eips.ethereum.org/EIPS/eip-777.
-[6] Radar. WTF is WETH? url: https://weth.io/.
-[7] Uniswap.info. Wrapped Ether (WETH). url: https://uniswap.info/token/0xc02aaa39b223fe8d0a0e5c4f27e
+
+[3] [samczsun. Taking undercollateralized loans for fun and for profit. Sept. 2019](https://samczsun.com/taking-undercollateralized-loans-for-fun-and-for-profit/).
+
+[4] [Fabian Vogelsteller and Vitalik Buterin. Nov. 2015](https://eips.ethereum.org/EIPS/eip-20).
+
+[5] [Jordi Baylina Jacques Dafflon and Thomas Shababi. EIP 777: ERC777 Token Standard.Nov. 2017](https://eips.ethereum.org/EIPS/eip-777).
+
+[6] [Radar. WTF is WETH? ](https://weth.io/).
+
+[7] [Uniswap.info. Wrapped Ether (WETH)]( https://uniswap.info/token/0xc02aaa39b223fe8d0a0e5c4f27e).
+
 [8] Vitalik Buterin. EIP 1014
