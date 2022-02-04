@@ -2,6 +2,12 @@
 
 这是一套自动化部署Uniswap-v2的代码，可以实现快速部署Uniswap-v2
 
+## 快速部署是如何实现的
+
+要实现快速部署Uniswap-v2，其本质上是实现Uniswap-v2合约部署和配置的自动化。这里面合约自动部署使用到了hardhat框架，合约自动配置则使用到了[uniswap/sdk-core v3.0.3](https://github.com/Uniswap/sdk-core/tree/a88048e9c4198a5bdaea00883ca00c8c8e582605)(为了找到这个两年前的版本，可费了我不少时间)。只要用魔改后的SDK换掉原来的`uniswap/sdk`,就可以实现在前端项目里自动化配置合约。
+
+祝大家玩的开心。
+
 ## 部署环境
 
 - ubuntu 20.04 
@@ -113,8 +119,3 @@
         ```
     - 访问页面`https://{用户名}.github.io/{项目名称}`(需要一段时间剩生效)
 
-## 快速部署是如何实现的
-
-要实现快速部署Uniswap-v2，其本质上是实现Uniswap-v2合约部署和配置的自动化。这里面合约自动部署使用到了hardhat框架，合约自动配置则使用到了[uniswap/sdk-core v3.0.3](https://github.com/Uniswap/sdk-core/tree/a88048e9c4198a5bdaea00883ca00c8c8e582605)(为了找到这个两年前的版本，可费了我不少时间)。只要用魔改后的SDK换掉原来的`uniswap/sdk`,就可以实现在前端项目里自动化配置合约。
-
-祝大家玩的开心。
