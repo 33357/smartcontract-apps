@@ -8,6 +8,8 @@ Uniswap-v2 是目前市面上应用最广泛、锁仓资金量最大的去中心
 
 - [项目历史](./project-history.md)
 
+- [项目白皮书](./whitepaper.md)
+
 - [快速了解](./quick-understand.md)
 
 - [官方部署](./official-deploy.md)
