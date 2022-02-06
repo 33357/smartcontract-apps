@@ -71,6 +71,10 @@
 如果对此事有更大的兴趣，欢迎加入wx社群
 wx号:im33357(备注：sc-apps)
 
+## 捐赠
+
+开源区块链文档撰写不易，欢迎捐赠：0x390CA69d27b2Dd84C4E7D938DdA52F0A3a4Fbf5F 支持ETH和BSC。
+
 ## 通知推送
 
 twitter：[im33357dr](https://twitter.com/im33357dr)
