@@ -4,6 +4,7 @@
 
 ## 智能合约应用领域
 
+- [智能合约事件分析](./Event/index.md)
 - [去中心化交易所](./DEX/index.md)
 - [去中心化借贷](./Loan/index.md)
 - [机枪池](./GunPool/index.md)
@@ -64,7 +65,7 @@
 
 ## 捐赠
 
-欢迎通过该项目习得区块链知识的成员向项目捐赠ETH，这个项目会因为你们拥有更大的活力。[https://etherscan.io/address/0x61b27d2a3ccfd309d8d2f15b132d16733448ab88/#code](https://etherscan.io/address/0x61b27d2a3ccfd309d8d2f15b132d16733448ab88/#code)，这是该项目唯一接受捐赠的合约地址，进行捐赠需要解答合约内的题目，捐赠成功后会返回 Star 作为奖励。捐赠合约仓库 [https://github.com/33357/sc-apps-donate-contract](https://github.com/33357/sc-apps-donate-contract)。
+欢迎通过该项目习得区块链知识的成员向项目捐赠ETH，这个项目会因为你们拥有更大的活力。[https://etherscan.io/address/0x61b27d2a3ccfd309d8d2f15b132d16733448ab88/#code](https://etherscan.io/address/0x61b27d2a3ccfd309d8d2f15b132d16733448ab88/#code)，这是该项目唯一接受捐赠的合约地址，进行捐赠需要解答合约内的题目，捐赠成功后会返回 Star 作为奖励。[捐赠合约仓库](https://github.com/33357/sc-apps-donate-contract)
 
 ## 加入社群
 
