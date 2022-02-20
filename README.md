@@ -39,7 +39,7 @@
 
 - [ ] Uniswap-v2  (进行中，2022-1-28开始)
 
-- [ ] Sushiswap  (未开始，预计2022-2-4开始)
+- [ ] Sushiswap
 
 - [ ] AAVE
 
