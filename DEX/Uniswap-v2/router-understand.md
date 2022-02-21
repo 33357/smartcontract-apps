@@ -1065,7 +1065,7 @@ Router 合约是用户使用 Uniswap-v2 进行交换直接调用的合约，通�
             ```
         - 参数分析
 
-            函数`swapETHForExactTokens`的入参有2个，出参有0个，对应的解释如下：
+            函数 `swapETHForExactTokens` 的入参有2个，出参有0个，对应的解释如下：
             ``` javascript
             function _swapSupportingFeeOnTransferTokens(
                 address[] memory path, // 交易路径列表
@@ -1074,7 +1074,7 @@ Router 合约是用户使用 Uniswap-v2 进行交换直接调用的合约，通�
                 ...
             }
             ```
-            函数 `_swapSupportingFeeOnTransferTokens` 相比函数 `_swap` 为了支持交易后可变数量的代币，不需要输入 `amounts`，但需要额外做一些操作。
+            函数 `_swapSupportingFeeOnTransferTokens` 相比函数 `_swap` 为了支持 `path` 中有交易后可变数量的代币，不需要输入 `amounts`，但需要额外做一些操作。
         - 实现分析
             ``` javascript
             ... 
