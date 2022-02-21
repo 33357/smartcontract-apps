@@ -8,7 +8,7 @@
 
 ## 经典应用
 
-- [YFI](./YFI/index.md)
+- [YFI](./YFI/README.md)
 
 - Convex
 
