@@ -1,6 +1,6 @@
 # Uniswap-v2 Router合约分析
 
-Router 合约是用户使用 Uniswap-v2 进行交换直接调用的合约，通过分析它可以深入了解 Uniswap-v2 的产品使用和运行逻辑。
+Router 合约是用户使用 Uniswap-v2 进行交换直接调用的合约，通过分析它可以深入了解 Uniswap-v2 的使用逻辑。
 
 演示代码仓库：[https://github.com/33357/uniswap-v2-contract](https://github.com/33357/uniswap-v2-contract)，这里使用的是Router02。
 
@@ -8,7 +8,7 @@ Router 合约是用户使用 Uniswap-v2 进行交换直接调用的合约，通�
 
 - 内部函数（仅供合约内部调用）
     - _addLiquidity
-        - 代码速浏览
+        - 代码速览
             ``` javascript
             function _addLiquidity(
                 address tokenA,
@@ -94,7 +94,7 @@ Router 合约是用户使用 Uniswap-v2 进行交换直接调用的合约，通�
 
 - 外部函数（仅供合约外部调用）
     - addLiquidity
-        - 代码速浏览
+        - 代码速览
             ``` javascript
             function addLiquidity(
                 address tokenA,
@@ -155,7 +155,7 @@ Router 合约是用户使用 Uniswap-v2 进行交换直接调用的合约，通�
 
             外部函数 `addLiquidity` 实现了用户添加 `ERC20` 交易对流动性的操作。值得注意的是，设置 `to` 实际上方便了第三方合约添加流动性，这为后来聚合交易所的出现，埋下了伏笔。
     - addLiquidityETH
-        - 代码速浏览
+        - 代码速览
             ``` javascript
             function addLiquidityETH(
                 address token,
@@ -237,7 +237,7 @@ Router 合约是用户使用 Uniswap-v2 进行交换直接调用的合约，通�
 
 - 公共函数（合约内外部都可以调用）
     - removeLiquidity
-        - 代码速浏览
+        - 代码速览
             ``` javascript
             function removeLiquidity(
                 address tokenA,
@@ -300,7 +300,7 @@ Router 合约是用户使用 Uniswap-v2 进行交换直接调用的合约，通�
 
             移除流动性并不会检查你是否是流动性的添加者，只要你拥有 LP，那么就拥有了流动性的所有权。因此一定要保管好自己的 LP（本人真金白银的教训）。
     - removeLiquidityETH
-        - 代码速浏览
+        - 代码速览
             ``` javascript
             function removeLiquidityETH(
                 address token,
@@ -372,7 +372,7 @@ Router 合约是用户使用 Uniswap-v2 进行交换直接调用的合约，通�
 - 外部函数（仅供合约外部调用）
 
     - removeLiquidityWithPermit
-        - 代码速浏览
+        - 代码速览
             ``` javascript
             function removeLiquidityWithPermit(
                 address tokenA,
@@ -432,7 +432,7 @@ Router 合约是用户使用 Uniswap-v2 进行交换直接调用的合约，通�
 
     - removeLiquidityETHWithPermit
 
-        - 代码速浏览
+        - 代码速览
             ``` javascript
             function removeLiquidityETHWithPermit(
                 address token,
@@ -490,7 +490,7 @@ Router 合约是用户使用 Uniswap-v2 进行交换直接调用的合约，通�
 ## 移除流动性（支持代付GAS代币）
 - 公共函数（合约内外部都可以调用）
     - removeLiquidityETHSupportingFeeOnTransferTokens
-        - 代码速浏览
+        - 代码速览
             ``` javascript
             function removeLiquidityETHSupportingFeeOnTransferTokens(
                 address token,
@@ -561,7 +561,7 @@ Router 合约是用户使用 Uniswap-v2 进行交换直接调用的合约，通�
             实际上 `removeLiquidityETHSupportingFeeOnTransferTokens` 支持了所有在移除流动性时，数量会变化的代币，有一些代币的经济模式利用到了这点。
 - 外部函数（仅供合约外部调用）
     - removeLiquidityETHWithPermitSupportingFeeOnTransferTokens
-        - 代码速浏览
+        - 代码速览
             ``` javascript
             function removeLiquidityETHWithPermitSupportingFeeOnTransferTokens(
                 address token,
@@ -622,7 +622,7 @@ Router 合约是用户使用 Uniswap-v2 进行交换直接调用的合约，通�
 ## 交易
 - 内部函数（仅供合约内部调用）
     - _swap
-        - 代码速浏览
+        - 代码速览
             ``` javascript
             function _swap(uint[] memory amounts, address[] memory path, address _to) internal virtual {
                 for (uint i; i < path.length - 1; i++) {
@@ -678,7 +678,7 @@ Router 合约是用户使用 Uniswap-v2 进行交换直接调用的合约，通�
             由于执行 `swap` 时，需要排列 `amount0Out`、`amount1Out` 的顺序，因此需要计算 `input`、`output` 中谁是 `token0`。
 - 外部函数（仅供合约外部调用）
     - swapExactTokensForTokens
-        - 代码速浏览
+        - 代码速览
             ``` javascript
             function swapExactTokensForTokens(
                 uint amountIn,
@@ -734,7 +734,7 @@ Router 合约是用户使用 Uniswap-v2 进行交换直接调用的合约，通�
 
             可以看到，由于区块链上的实际交易和预期交易有偏差是常见的事情，因此在设计链上交易的时候逻辑会比较复杂，条件选择会有很多。
     - swapTokensForExactTokens
-        - 代码速浏览
+        - 代码速览
             ``` javascript
             function swapTokensForExactTokens(
                 uint amountOut,
@@ -790,7 +790,7 @@ Router 合约是用户使用 Uniswap-v2 进行交换直接调用的合约，通�
 
             函数 `swapTokensForExactTokens` 完全是函数 `swapExactTokensForTokens` 的相反操作。一般来说，`swapExactTokensForTokens` 用于出售确定数量的代币，`swapTokensForExactTokens` 用于购买确定数量的代币。
     - swapExactETHForTokens
-        - 代码速浏览
+        - 代码速览
             ``` javascript
             function swapExactETHForTokens(uint amountOutMin, address[] calldata path, address to, uint deadline)
                 external
@@ -848,7 +848,7 @@ Router 合约是用户使用 Uniswap-v2 进行交换直接调用的合约，通�
 
             此函数一般用于出售确定数量的 ETH，获得不确定数量代币。
     - swapTokensForExactETH
-        - 代码速浏览
+        - 代码速览
             ``` javascript
             function swapTokensForExactETH(uint amountOut, uint amountInMax, address[] calldata path, address to, uint deadline)
                 external
@@ -913,7 +913,7 @@ Router 合约是用户使用 Uniswap-v2 进行交换直接调用的合约，通�
 
             此函数一般用于购买确定数量的 ETH，用不定数量的代币交换。
     - swapExactTokensForETH
-        - 代码速浏览
+        - 代码速览
             ``` javascript
             function swapExactTokensForETH(uint amountIn, uint amountOutMin, address[] calldata path, address to, uint deadline)
                 external
@@ -978,7 +978,7 @@ Router 合约是用户使用 Uniswap-v2 进行交换直接调用的合约，通�
 
             此函数一般用于出售确定数量代币，获得不确定数量的 ETH。
     - swapETHForExactTokens
-        - 代码速浏览
+        - 代码速览
             ``` javascript
             function swapETHForExactTokens(uint amountOut, address[] calldata path, address to, uint deadline)
                 external
@@ -1042,7 +1042,7 @@ Router 合约是用户使用 Uniswap-v2 进行交换直接调用的合约，通�
 ## 交易（支持代付GAS代币）
 - 内部函数（仅供合约内部调用）
     - _swapSupportingFeeOnTransferTokens
-        - 代码速浏览
+        - 代码速览
             ``` javascript
             function _swapSupportingFeeOnTransferTokens(address[] memory path, address _to) internal virtual {
                 for (uint i; i < path.length - 1; i++) {
@@ -1113,7 +1113,7 @@ Router 合约是用户使用 Uniswap-v2 进行交换直接调用的合约，通�
             可以看到，因为没有 `amounts`，需要使用流动池余额减去库存来计算`amountInput`。
 - 外部函数（仅供合约外部调用）
     - swapExactTokensForTokensSupportingFeeOnTransferTokens
-        - 代码速浏览
+        - 代码速览
             ``` javascript
             function swapExactTokensForTokensSupportingFeeOnTransferTokens(
                 uint amountIn,
@@ -1174,7 +1174,7 @@ Router 合约是用户使用 Uniswap-v2 进行交换直接调用的合约，通�
 
             该函数适用于支付确定数量的代币，获得不定数量的代币，且在 path 路径列表中有交易后数量可变的代币。
     - swapExactETHForTokensSupportingFeeOnTransferTokens
-        - 代码速浏览
+        - 代码速览
             ``` javascript
             function swapExactETHForTokensSupportingFeeOnTransferTokens(
                 uint amountOutMin,
@@ -1245,7 +1245,7 @@ Router 合约是用户使用 Uniswap-v2 进行交换直接调用的合约，通�
 
             该函数适用于支付确定数量的 ETH，获得不定数量的代币，且在 path 路径列表中有交易后数量可变的代币。
     - swapExactTokensForETHSupportingFeeOnTransferTokens
-        - 代码速浏览
+        - 代码速览
             ``` javascript
             function swapExactTokensForETHSupportingFeeOnTransferTokens(
                 uint amountIn,

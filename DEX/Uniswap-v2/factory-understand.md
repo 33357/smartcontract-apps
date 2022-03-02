@@ -1,13 +1,13 @@
 # Uniswap-v2 Factory合约分析
 
-Factory 合约是 Uniswap-v2 用来创建资金池的合约，通过分析它可以深入了解 Uniswap-v2 的运行逻辑。
+Factory 合约是 Uniswap-v2 用来创建资金池的合约，通过分析它可以深入了解 Uniswap-v2 工厂合约的运行逻辑。
 
 演示代码仓库：[https://github.com/33357/uniswap-v2-contract](https://github.com/33357/uniswap-v2-contract)。
 
 ## 合约初始化
 - 公共函数（合约内外部都可以调用）
     - constructor
-        - 代码速浏览
+        - 代码速览
             ``` javascript
             constructor(address _feeToSetter) public {
                 feeToSetter = _feeToSetter;
@@ -38,7 +38,7 @@ Factory 合约是 Uniswap-v2 用来创建资金池的合约，通过分析它可
 ## 资金池
 - 外部函数（仅合约外部可以调用）
     - allPairsLength
-        - 代码速浏览
+        - 代码速览
             ``` javascript
             function allPairsLength() external view returns (uint) {
                 return allPairs.length;
@@ -67,7 +67,7 @@ Factory 合约是 Uniswap-v2 用来创建资金池的合约，通过分析它可
 
             获取 allPairs 需要输入 index，因此需要获取资金池数组。
     - createPair
-        - 代码速浏览
+        - 代码速览
             ``` javascript
             function createPair(address tokenA, address tokenB) external returns (address pair) {
                 require(tokenA != tokenB, 'UniswapV2: IDENTICAL_ADDRESSES');
@@ -138,7 +138,7 @@ Factory 合约是 Uniswap-v2 用来创建资金池的合约，通过分析它可
 
 - 外部函数（仅合约外部可以调用）
     - setFeeTo
-        - 代码速浏览
+        - 代码速览
             ``` javascript
             function setFeeTo(address _feeTo) external {
                 require(msg.sender == feeToSetter, 'UniswapV2: FORBIDDEN');
@@ -170,7 +170,7 @@ Factory 合约是 Uniswap-v2 用来创建资金池的合约，通过分析它可
 
             只有手续费管理员才能设置手续费接收地址。
     - setFeeToSetter
-        - 代码速浏览
+        - 代码速览
             ``` javascript
             function setFeeToSetter(address _feeToSetter) external {
                 require(msg.sender == feeToSetter, 'UniswapV2: FORBIDDEN');
