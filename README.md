@@ -4,7 +4,7 @@
 
 ## 智能合约应用领域
 
-- [智能合约事件分析](./Event/README.md)
+- [智能合约分析](./Event/README.md)
 - [去中心化交易所](./DEX/README.md)
 - [去中心化借贷](./Loan/README.md)
 - [机枪池](./GunPool/README.md)
