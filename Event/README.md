@@ -7,3 +7,5 @@
 - [RandomDAO事件](./RandomDAO.md)
 
 - [EIP1559下的GAS费设置](./EIP1559_GAS.md)
+
+- [X2Y2: 必须修改的中心化NFT挂单奖励机制](./X2Y2:DecentralizedOrderReward.md)
