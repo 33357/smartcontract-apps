@@ -71,14 +71,14 @@ Router 合约是用户使用 Uniswap-v2 进行交换直接调用的合约，通�
                     // 如果库存数量为0，也就是新建 tokenA,tokenB 的流动池，那么实际添加的amountA, amountB 就是 amountADesired 和 amountBDesired
                     (amountA, amountB) = (amountADesired, amountBDesired);
                 } else {
-                    // reserveA*reserveB/amountADesired，算出实际要添加的 tokenB 数量 amountBOptimal
+                    // amountADesired*reserveB/reserveA，算出实际要添加的 tokenB 数量 amountBOptimal
                     uint amountBOptimal = UniswapV2Library.quote(amountADesired, reserveA, reserveB);
                     if (amountBOptimal <= amountBDesired) {
                         // 如果 amountBMin <= amountBOptimal <= amountBDesired，amountA 和 amountB 就是 amountADesired 和 amountBOptimal
                         require(amountBOptimal >= amountBMin, 'UniswapV2Router: INSUFFICIENT_B_AMOUNT');
                         (amountA, amountB) = (amountADesired, amountBOptimal);
                     } else {
-                        // reserveA*reserveB/amountBDesired，算出实际要添加的 tokenA 数量 amountAOptimal
+                        // amountBDesired*reserveA/reserveB，算出实际要添加的 tokenA 数量 amountAOptimal
                         uint amountAOptimal = UniswapV2Library.quote(amountBDesired, reserveB, reserveA);
                         // 如果 amountAMin <= amountAOptimal <= amountADesired，amountA 和 amountB 就是 amountAOptimal 和 amountBDesired
                         assert(amountAOptimal <= amountADesired);
