@@ -37,9 +37,7 @@
 
 ## 路线图
 
-按排名顺序写作，每个项目的写作周期时间为7天。
-
-- [ ] Uniswap-v2  (进行中，2022-1-28开始)
+- [x] Uniswap-v2  (进行中，2022-1-28开始)
 
 - [ ] Sushiswap
 
@@ -65,10 +63,6 @@
 
 欢迎大家对本项目提出想法，包括需要研究的智能合约项目或者领域，也欢迎投稿项目分析。
 
-## 捐赠
-
-欢迎通过该项目习得区块链知识的成员向项目捐赠ETH，这个项目会因为你们拥有更大的活力。[https://etherscan.io/address/0x61b27d2a3ccfd309d8d2f15b132d16733448ab88/#code](https://etherscan.io/address/0x61b27d2a3ccfd309d8d2f15b132d16733448ab88/#code)，这是该项目唯一接受捐赠的合约地址，进行捐赠需要解答合约内的题目，捐赠成功后会返回 Star 作为奖励。[捐赠合约仓库](https://github.com/33357/sc-apps-donate-contract)
-
 ## 加入社群
 
 如果对此事有更大的兴趣，欢迎加入wx社群
@@ -77,8 +71,6 @@ wx号:im33357(备注：sc-apps)
 ## 通知推送
 
 twitter：[im33357dr](https://twitter.com/im33357dr)
-
-微博：[我是33357](https://weibo.com/u/5933263714)
 
 ## 维护员
 
