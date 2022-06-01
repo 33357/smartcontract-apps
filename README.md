@@ -6,9 +6,9 @@
 
 - [智能合约分析](./Event/README.md)
 - [机器人](./Robot/README.md)
-- [Solidity](./Solidity/README.md)
 - [去中心化交易所](./DEX/README.md)
 - [去中心化借贷](./Loan/README.md)
+- [Solidity](./Solidity/README.md)
 - [机枪池](./GunPool/README.md)
 - [算法稳定代币](./StableCoin/README.md)
 - [NFT发行](./NFT/README.md)
