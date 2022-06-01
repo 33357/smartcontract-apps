@@ -1,4 +1,4 @@
-# Compound应用结构
+# Compound应用架构
 
 ## 服务架构
 
