@@ -6,4 +6,4 @@ AAVE 是目前市面目前最成功的去中心化借贷协议。它首创了闪
 
 ## 应用分析
 
-- [快速了解](./quick-understand.md)
+- [快速了解](./quick_understand.md)
