@@ -10,4 +10,4 @@ Compound 创建了目前去中心化借贷应用最广泛的cToken设计模式�
 
 - [应用架构](./app_architecture.md)
 
-- [rateModel合约解析](./rateModel_understand.md)
+- [RateModel合约解析](./rateModel_understand.md)
