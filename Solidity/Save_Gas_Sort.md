@@ -6,126 +6,126 @@
 
 ## 实现
 ``` javascript
-    uint256 public firstSortId;
-    uint256 public sortLength;
-    mapping(uint256 => uint256) private _sortMap;
+uint256 public firstSortId;
+uint256 public sortLength;
+mapping(uint256 => uint256) private _sortMap;
 
-    function _addSort(
-        uint256 beforeSortId,
-        uint256 id
-    ) internal {
-        if (beforeSortId == 0) {
-            if (firstSortId != 0) {
-                require(
-                    firstSortId <= id,
-                    "Sort: sort error"
-                );
-            }
-            _sortMap[id] = firstSortId;
-            firstSortId = id;
-        } else if (_sortMap[beforeSortId] == 0) {
+function _addSort(
+    uint256 beforeSortId,
+    uint256 id
+) internal {
+    if (beforeSortId == 0) {
+        if (firstSortId != 0) {
             require(
-                firstSortId >= id,
+                firstSortId <= id,
                 "Sort: sort error"
             );
-            _sortMap[beforeSortId] = id;
-        } else {
-            require(
-                beforeSortId >= id &&
-                    _sortMap[beforeSortId] <= id &&
-                    beforeSortId !=
-                    _sortMap[beforeSortId],
-                "Sort: sort error"
-            );
-            _sortMap[_sortMap[id]] = _sortMap[beforeSortId];
-            _sortMap[beforeSortId] = id;
         }
-        sortLength++;
+        _sortMap[id] = firstSortId;
+        firstSortId = id;
+    } else if (_sortMap[beforeSortId] == 0) {
+        require(
+            firstSortId >= id,
+            "Sort: sort error"
+        );
+        _sortMap[beforeSortId] = id;
+    } else {
+        require(
+            beforeSortId >= id &&
+                _sortMap[beforeSortId] <= id &&
+                beforeSortId !=
+                _sortMap[beforeSortId],
+            "Sort: sort error"
+        );
+        _sortMap[_sortMap[id]] = _sortMap[beforeSortId];
+        _sortMap[beforeSortId] = id;
     }
+    sortLength++;
+}
 
-    function _removeSort(
-        uint256 beforeSortId,
-        uint256 id
-    ) internal {
-        if (beforeSortId == 0) {
-            require(firstSortId == id, "Sort: sort error");
-            firstSortId = _sortMap[firstSortId];
-        } else {
-            require(
-                _sortMap[beforeSortId] == id,
-                "Sort: sort error"
-            );
-            _sortMap[beforeSortId] = _sortMap[id];
-        }
-        sortLength--;
+function _removeSort(
+    uint256 beforeSortId,
+    uint256 id
+) internal {
+    if (beforeSortId == 0) {
+        require(firstSortId == id, "Sort: sort error");
+        firstSortId = _sortMap[firstSortId];
+    } else {
+        require(
+            _sortMap[beforeSortId] == id,
+            "Sort: sort error"
+        );
+        _sortMap[beforeSortId] = _sortMap[id];
     }
+    sortLength--;
+}
 
-    function getIdListBySort(uint256 startId, uint256 length)
-        public
-        view
-        returns (uint256[] memory)
-    {
-        uint256[] memory idList = new uint256[](length);
-        uint48 id = startId;
-        for (uint256 i = 0; i < length; i++) {
-            id = _sortMap[id];
-            idList[i] = id;
-        }
-        return idList;
+function getIdListBySort(uint256 startId, uint256 length)
+    public
+    view
+    returns (uint256[] memory)
+{
+    uint256[] memory idList = new uint256[](length);
+    uint48 id = startId;
+    for (uint256 i = 0; i < length; i++) {
+        id = _sortMap[id];
+        idList[i] = id;
     }
+    return idList;
+}
 ```
 
 ## 解析
 
 - 公共函数（合约内外部都可以调用）
- - getIdListBySort
-    - 代码速览
-        ``` javascript
-        function getIdListBySort(uint256 startId, uint256 length)
-            public
-            view
-            returns (uint256[] memory)
-        {
-            uint256[] memory idList = new uint256[](length);
-            uint48 id = startId;
-            for (uint256 i = 0; i < length; i++) {
-                id = _sortMap[id];
-                idList[i] = id;
+    - getIdListBySort
+        - 代码速览
+            ``` javascript
+            function getIdListBySort(uint256 startId, uint256 length)
+                public
+                view
+                returns (uint256[] memory)
+            {
+                uint256[] memory idList = new uint256[](length);
+                uint48 id = startId;
+                for (uint256 i = 0; i < length; i++) {
+                    id = _sortMap[id];
+                    idList[i] = id;
+                }
+                return idList;
             }
-            return idList;
-        }
-        ```
-    - 参数分析
-        函数 `getIdListBySort` 的入参有 2 个，出参有 0 个，对应的解释如下：
-        ``` javascript
-        constructor(
-            uint256 startId, // 遍历起始id
-            uint256 length // 遍历长度
-        ) public view  returns (
-            uint256[] memory // 返回id列表
-        ) {
+            ```
+        - 参数分析
+            函数 `getIdListBySort` 的入参有 2 个，出参有 0 个，对应的解释如下：
+            ``` javascript
+            constructor(
+                uint256 startId, // 遍历起始id
+                uint256 length // 遍历长度
+            ) public view  returns (
+                uint256[] memory // 返回id列表
+            ) {
+                ...
+            }
+            ```
+        - 实现分析
+            ``` javascript
             ...
-        }
-        ```
-    - 实现分析
-        ``` javascript
-        ...
-        {
-            // 创建 idList
-            uint256[] memory idList = new uint256[](length);
-            // 初始化 id
-            uint48 id = startId;
-            // 循环遍历，获取从 startId 的映射，开始的 length 个 id
-            for (uint256 i = 0; i < length; i++) {
-                id = _sortMap[id];
-                idList[i] = id;
+            {
+                // 创建 idList
+                uint256[] memory idList = new uint256[](length);
+                // 初始化 id
+                uint48 id = startId;
+                // 循环遍历，获取从 startId 的映射，开始的 length 个 id
+                for (uint256 i = 0; i < length; i++) {
+                    id = _sortMap[id];
+                    idList[i] = id;
+                }
+                // 返回 idList
+                return idList;
             }
-            // 返回 idList
-            return idList;
-        }
-        ```
-    - 总结
-        函数 `getIdListBySort` 可以获取从 `_sortMap[startId]` 开始的 `length` 个 `id`，受限于 EVM 机制一次获取的 `length` 最好不超过1万。
+            ```
+        - 总结
+            函数 `getIdListBySort` 可以获取从 `_sortMap[startId]` 开始的 `length` 个 `id`，受限于 EVM 机制一次获取的 `length` 最好不超过1万。
 - 内部函数（仅合约内部可用）
     - _addSort
         - 代码速览
