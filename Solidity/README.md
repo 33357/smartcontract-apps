@@ -4,4 +4,4 @@ SOLIDITY 是目前使用最广泛的 EVM 智能合约语言，通过学习它可
 
 ## 设计模式
 
-- 最省GAS链上排序[./Save_Gas_Sort.md]
+- [最省GAS链上排序](./Save_Gas_Sort.md)
