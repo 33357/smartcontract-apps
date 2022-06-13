@@ -10,6 +10,6 @@ NFT的概念在最近火热了起来，通过在区块链上使用智能合约�
 
 ## 经典应用
 
-- [CryptoKitties](./CryptoKitties/README.md)
+- CryptoKitties
 
 ## 新兴应用

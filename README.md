@@ -2,6 +2,10 @@
 
 这是一个面向中文社区，分析市面上智能合约应用的架构与实现的仓库。
 
+## 通知推送
+
+twitter：[im33357dr](https://twitter.com/im33357dr)
+
 ## 智能合约应用领域
 
 - [智能合约分析](./Event/README.md)
@@ -9,9 +13,9 @@
 - [去中心化交易所](./DEX/README.md)
 - [去中心化借贷](./Loan/README.md)
 - [Solidity](./Solidity/README.md)
-- [机枪池](./GunPool/README.md)
-- [算法稳定代币](./StableCoin/README.md)
-- [NFT发行](./NFT/README.md)
+- 机枪池
+- 算法稳定代币
+- NFT发行
 - 质押挖矿
 - 代币发行
 - 去中心化游戏
@@ -37,15 +41,9 @@
 
 ## 路线图
 
-- [x] Uniswap-v2  (进行中，2022-1-28开始)
+- [x] Uniswap-v2 
 
-- [ ] Sushiswap
-
-- [ ] AAVE
-
-- [ ] YFI
-
-- [ ] CryptoKitties
+- [ ] Compound (进行中)
 
 - [ ] MakerDAO
 
@@ -59,18 +57,14 @@
 
 - 深入分析：深入分析项目的实现架构、组成部分和合约逻辑。
 
-## 提出想法
-
-欢迎大家对本项目提出想法，包括需要研究的智能合约项目或者领域，也欢迎投稿项目分析。
-
 ## 加入社群
 
 如果对此事有更大的兴趣，欢迎加入wx社群
 wx号:im33357(备注：sc-apps)
 
-## 通知推送
+## 提出想法
 
-twitter：[im33357dr](https://twitter.com/im33357dr)
+欢迎大家对本项目提出想法，包括需要研究的智能合约项目或者领域，也欢迎投稿项目分析。
 
 ## 维护员
 

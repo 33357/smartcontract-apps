@@ -16,6 +16,6 @@
 
 - [Compound](./Compound/README.md)
 
-- [AAVE](./AAVE/README.md)
+- AAVE
 
 ## 新兴应用
