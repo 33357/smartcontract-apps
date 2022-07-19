@@ -8,6 +8,7 @@ twitter：[im33357dr](https://twitter.com/im33357dr)
 
 ## 智能合约应用领域
 
+- [行业展望](./Outlook/README.md)
 - [智能合约分析](./Event/README.md)
 - [机器人](./Robot/README.md)
 - [去中心化交易所](./DEX/README.md)
