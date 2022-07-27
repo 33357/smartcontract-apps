@@ -8,13 +8,13 @@ twitter：[im33357dr](https://twitter.com/im33357dr)
 
 ## 智能合约应用领域
 
-- [100 个 Solidity 使用技巧](./Solidity_100/README.md)
-- [行业展望](./Outlook/README.md)
-- [智能合约分析](./Event/README.md)
-- [机器人](./Robot/README.md)
-- [去中心化交易所](./DEX/README.md)
-- [去中心化借贷](./Loan/README.md)
-- [Solidity](./Solidity/README.md)
+- [100 个 Solidity 使用技巧](./Solidity_100)
+- [行业展望](./Outlook)
+- [智能合约分析](./Event)
+- [机器人](./Robot)
+- [去中心化交易所](./DEX)
+- [去中心化借贷](./Loan)
+- [Solidity](./Solidity)
 - 机枪池
 - 算法稳定代币
 - NFT发行

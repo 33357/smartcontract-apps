@@ -20,7 +20,7 @@
 
 - Token交易所
 
-    - [Uniswap_v2](./Uniswap_v2/README.md)
+    - [Uniswap_v2](./Uniswap_v2)
 
     - SushiSwap
 
