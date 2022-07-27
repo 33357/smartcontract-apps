@@ -4,10 +4,10 @@
 
 ## 应用类型
 
-- [搬砖交易机器人](./Moving_Exchange_Robot/README.md)
+- [搬砖交易机器人](./Moving_Exchange_Robot)
 
-- [三明治交易机器人](./Sandwich_Exchange_Robot/README.md)
+- [三明治交易机器人](./Sandwich_Exchange_Robot)
 
-- [抢跑机器人](./Running_Robot/README.md)
+- [抢跑机器人](./Running_Robot)
 
 - 量化机器人

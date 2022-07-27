@@ -14,7 +14,7 @@
 
 ## 经典应用
 
-- [Compound](./Compound/README.md)
+- [Compound](./Compound)
 
 - AAVE
 
