@@ -8,6 +8,7 @@ twitter：[im33357dr](https://twitter.com/im33357dr)
 
 ## 智能合约应用领域
 
+- [100 个 Solidity 使用技巧](./Solidity_100/README.md)
 - [行业展望](./Outlook/README.md)
 - [智能合约分析](./Event/README.md)
 - [机器人](./Robot/README.md)
@@ -39,14 +40,6 @@ twitter：[im33357dr](https://twitter.com/im33357dr)
 - 不光要确保应用的去中心化运行，还要实现应用的去中心化运营，因此需要加入去中心化自治系统，对传统互联网应用进行改造。
 
 如遇到以上，或更多的分歧之中，我们会收录并说明其中的差别，尽量大家提供全面的分析和解释。
-
-## 路线图
-
-- [x] Uniswap-v2 
-
-- [ ] Compound (进行中)
-
-- [ ] MakerDAO
 
 ## 写作内容
 
