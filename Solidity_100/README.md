@@ -9,7 +9,7 @@
 ## 目录
 
 - 安全技巧
-    - [1. 合约重入攻击](./REAMDME.md)
+    - [1. 合约重入攻击](./1_Reentrancy_Attack/REAMDME.md)
     <!-- - [2. 变量溢出攻击](./2_Overflow.md)
     - [3. 判断合约地址](./3_Contract_Address.md)
     - [4. require 条件判断](./4_Condition_Check.md)
