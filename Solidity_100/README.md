@@ -10,7 +10,7 @@
 
 - 安全技巧
     - [1. 合约重入攻击](./1_Reentrancy_Attack)
-    - [2. 交易回滚攻击](./2_Transaction_Rollback_Attack.md)
+    - [2. 交易回滚攻击](./2_Transaction_Rollback_Attack)
     <!-- - [2. 整数溢出攻击](./2_Overflow.md) -->
     <!-- - [3. 判断合约地址](./3_Contract_Address.md) -->
     <!-- - [4. require 条件判断](./4_Condition_Check.md) -->
