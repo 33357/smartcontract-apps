@@ -8,7 +8,7 @@ twitter：[im33357dr](https://twitter.com/im33357dr)
 
 ## 特别篇
 
-- [如何在区块链领域用技术赚钱](./earn)
+- [如何在区块链领域用技术赚钱](./earn.md)
 
 ## 智能合约应用领域
 
