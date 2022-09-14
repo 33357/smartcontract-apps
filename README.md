@@ -6,6 +6,10 @@
 
 twitter：[im33357dr](https://twitter.com/im33357dr)
 
+## 特别篇
+
+- [如何在区块链领域用技术赚钱](./earn)
+
 ## 智能合约应用领域
 
 - [100 个 Solidity 使用技巧](./Solidity_100)
