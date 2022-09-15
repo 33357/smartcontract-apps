@@ -9,6 +9,7 @@ twitter：[im33357dr](https://twitter.com/im33357dr)
 ## 特别篇
 
 - [如何在区块链领域用技术赚钱](./earn.md)
+- [如何成为资深智能合约工程师](./dev.md)
 
 ## 智能合约应用领域
 
