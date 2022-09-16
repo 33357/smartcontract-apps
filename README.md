@@ -15,7 +15,7 @@ twitter：[im33357dr](https://twitter.com/im33357dr)
 
 - [100 个 Solidity 使用技巧](./Solidity_100)
 - [行业展望](./Outlook)
-- [智能合约分析](./Event)
+- [智能合约事件分析](./Event)
 - [机器人](./Robot)
 - [去中心化交易所](./DEX)
 - [去中心化借贷](./Loan)
