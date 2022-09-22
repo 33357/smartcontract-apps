@@ -26,7 +26,7 @@ twitter：[im33357dr](https://twitter.com/im33357dr)
 
 - [EIP1559下的GAS费设置](./Event/EIP1559_GAS.md)
 
-- [X2Y2: 必须修改的中心化NFT挂单奖励机制](./Event/X2Y2:DecentralizedOrderReward.md)
+- [X2Y2: 必须修改的中心化NFT挂单奖励机制](./Event/X2Y2_DecentralizedOrderReward.md)
 
 - [链上通信协议](./Event/OnChainMessageProtocol.md)
 
