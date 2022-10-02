@@ -24,6 +24,8 @@ twitter：[im33357dr](https://twitter.com/im33357dr)
 
 有了区块链技术的基础，在智能合约上编程，真正做到了“code is law，code is money”。这里会收集一些实时的智能合约事件及其技术和模式的分析。
 
+- [又是用户转移资产权限被盗，如何确保加密资产安全？](./Event/ContractApproveHack.md)
+
 - [RandomDAO事件](./Event/RandomDAO.md)
 
 - [EIP1559下的GAS费设置](./Event/EIP1559_GAS.md)
@@ -81,6 +83,8 @@ SOLIDITY 是目前使用最广泛的 EVM 智能合约语言，通过学习它可
 - [三明治交易机器人](./Robot/Sandwich_Exchange_Robot/)
 
 - [抢跑机器人](./Robot/Running_Robot/)
+
+- [MEV 是在为谁工作](./Robot/MEV_Who_are_you_working_for.md)
 
 ## 加入社群
 
