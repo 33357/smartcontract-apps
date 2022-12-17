@@ -13,7 +13,7 @@
 
 [https://docs.ethers.org](https://docs.ethers.org) 用 ethers 来做合约交互，合格的智能合约开发需要会写与合约交互的SDK，这样可以大大方便前后端对接和以后的合约维护工作。
 
-- openzipplin
+- openzeppelin
 
 [https://docs.openzeppelin.com/contracts](https://docs.openzeppelin.com/contracts) 除非你非常自信，否则不要去自己造轮子。使用现成的开源代码代码可以大大提高你的合约安全性。智能合约由于不可修改并且和资金密切相关，一旦出现 BUG 后果往往会非常严重。
 
