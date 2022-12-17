@@ -63,6 +63,7 @@
 新技术的发展日新月异，不要让自己落后于行业发展。
 
 - eip
+
 [https://eips.ethereum.org](https://eips.ethereum.org) 跟踪 EIP 的最新进展。
 
 ## 与行业内专家保持联系
