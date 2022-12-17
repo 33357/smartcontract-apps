@@ -30,7 +30,9 @@ twitter：[im33357dr](https://twitter.com/im33357dr)
 
 这是一些具有指导性的文章，可以为你指明前进的方向。
 
-- [Web3 自由之道](./Special/Web3FreeDao.md)
+<!-- - [Web3 自由之道](./Special/Web3FreeDao.md) -->
+
+- [如何入门智能合约开发](./Special/New.md)
 
 - [如何在区块链领域用技术赚钱](./Special/Earn.md)
 
@@ -106,7 +108,7 @@ SOLIDITY 是目前使用最广泛的 EVM 智能合约语言，通过学习它可
 
 - [抢跑机器人](./Robot/Running_Robot/)
 
-- [MEV 是在为谁工作](./Robot/MEV_Who_are_you_working_for.md)
+<!-- - [MEV 是在为谁工作](./Robot/MEV_Who_are_you_working_for.md) -->
 
 ## 加入社群
 
