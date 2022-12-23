@@ -56,7 +56,7 @@ Router 合约是用户使用 Uniswap-v2 进行交换直接调用的合约，通�
                     ...
             }
             ```
-            `tokenA` 和 `tokenB` 很好理解，但是为什么要有 `amountADesired`、`amountADesired`、`amountAMin`、`amountBMin` 呢？实际上因为用户在区块链上添加流动性并不是实时完成的，因此会因为其他用户的操作产生数据偏差，因此需要在这里指定一个为 `tokenA` 和 `tokenB` 添加流动性的数值范围。在添加流动性的过程中，首先会根据 `amountADesired` 计算出实际要添加的 `amountB`，如果 `amountB` 大于 `amountBDesired` 就换成根据 `amountBDesired` 计算出实际要添加的 `amountA`。
+            `tokenA` 和 `tokenB` 很好理解，但是为什么要有 `amountADesired`、`amountBDesired`、`amountAMin`、`amountBMin` 呢？实际上因为用户在区块链上添加流动性并不是实时完成的，因此会因为其他用户的操作产生数据偏差，因此需要在这里指定一个为 `tokenA` 和 `tokenB` 添加流动性的数值范围。在添加流动性的过程中，首先会根据 `amountADesired` 计算出实际要添加的 `amountB`，如果 `amountB` 大于 `amountBDesired` 就换成根据 `amountBDesired` 计算出实际要添加的 `amountA`。
         - 实现分析
             ``` javascript
             ...
