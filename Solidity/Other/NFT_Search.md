@@ -16,19 +16,17 @@
         // 起始 tokenId < 结束 tokenId
         require(start < end, "XenBox: end must over start");
         IERC721 erc721 = IERC721(target);
-        uint256[] memory list = new uint256[](end - start);
+        tokenIdList = new uint256[](end - start);
         uint256 index;
         // 遍历出所有者拥有的 tokenId
         for (uint256 tokenId = start; tokenId < end; tokenId++) {
             if (erc721.ownerOf(tokenId) == owner) {
-                list[index] = tokenId;
+                tokenIdList[index] = tokenId;
                 index++;
             }
         }
-        // 整理输出数据
-        tokenIdList = new uint256[](index);
-        for (uint256 i; i < index; i++) {
-            tokenIdList[i] = list[i];
+        assembly {
+            mstore(tokenIdList, index)
         }
     }
 ```
