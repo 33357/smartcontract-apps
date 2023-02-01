@@ -30,6 +30,8 @@ twitter：[im33357dr](https://twitter.com/im33357dr)
 
 tg: [smartcontractapps](https://t.me/smartcontractapps)
 
+wx：rndbot
+
 ## 特别篇
 
 这是一些具有指导性的文章，可以为你指明前进的方向。
