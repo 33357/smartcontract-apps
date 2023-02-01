@@ -26,6 +26,10 @@ XEN 对我来说是一个神奇的项目。2 月的时候，我发现了 RND，�
 
 twitter：[im33357dr](https://twitter.com/im33357dr)
 
+## 加入社群
+
+tg: [smartcontractapps](https://t.me/smartcontractapps)
+
 ## 特别篇
 
 这是一些具有指导性的文章，可以为你指明前进的方向。
@@ -96,10 +100,14 @@ SOLIDITY 是目前使用最广泛的 EVM 智能合约语言，通过学习它可
 
     - [NFT 所有者 tokenID 快速查询](./Solidity/Other/NFT_Search.md)
 
-## 行业展望
-任何技术发展的根本目的，都是按照人的期望对现实世界进行改造。区块链技术的未来在哪里？这取决于现在的从业者和用户对它有什么期望，以及能对现实世界有什么样的改造。我在这里写一些对于区块链行业未来的展望，希望能够让读者能对这个行业的未来有一些开拓性的构想。
+    - [Solidity 智能合约开发流程](./Solidity/Other/Solidity_Development_Process.md)
+
+## 时代展望
+任何技术发展的根本目的，都是按照人的期望对现实世界进行改造。区块链技术的未来在哪里？这取决于现在的从业者和用户对它有什么期望，以及能对现实世界有什么样的改造。
 
 - [2022年中展望](./Outlook/2022_MidYear.md)
+
+- [2022年末总结](./Outlook/2022_End.md)
 
 ## 套利机器人
 在区块链上实现盈利的机器人有不少种类，如果策略得当的话可以实现躺赚目标。这里会记录一些机器人的类型和实现。
@@ -111,11 +119,6 @@ SOLIDITY 是目前使用最广泛的 EVM 智能合约语言，通过学习它可
 - [抢跑机器人](./Robot/Running_Robot/)
 
 - [MEV 是在为谁工作](./Robot/MEV_Who_are_you_working_for.md)
-
-## 加入社群
-
-如果对此事有更大的兴趣，欢迎加入wx社群
-wx号:im33357(备注：sc-apps)
 
 ## 维护员
 
