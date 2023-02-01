@@ -21,4 +21,4 @@
 
 ## 结束
 
-最后放一个我自己目前使用的 Solidity 智能合约框架，整个框架整合了hardhat和foundry，能够几乎实现上面提到的所有功能，希望对大家有用 https://github.com/33357/hardhat-foundry-example
+最后放一个我自己目前使用的 Solidity 智能合约框架，这个框架整合了 hardhat 和 foundry，能够几乎实现上面提到的所有功能，希望对大家有用 https://github.com/33357/hardhat-foundry-example
