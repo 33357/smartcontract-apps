@@ -104,6 +104,8 @@ SOLIDITY 是目前使用最广泛的 EVM 智能合约语言，通过学习它可
 
     - [Solidity 智能合约开发流程](./Solidity/Other/Solidity_Development_Process.md)
 
+    - [如何预测最低的 GasPrice](./Solidity/Other/Lowest_GasPrice.md)
+
 ## 时代展望
 任何技术发展的根本目的，都是按照人的期望对现实世界进行改造。区块链技术的未来在哪里？这取决于现在的从业者和用户对它有什么期望，以及能对现实世界有什么样的改造。
 
