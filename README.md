@@ -30,7 +30,7 @@ twitter：[im33357dr](https://twitter.com/im33357dr)
 
 tg: [smartcontractapps](https://t.me/smartcontractapps)
 
-wx：rndbot
+wx：im33357(备注sc-apps)
 
 ## 特别篇
 
