@@ -46,6 +46,8 @@ wx：im33357(备注sc-apps)
 
 - [如何成为躺着赚钱的科学家](./Special/Scientist.md)
 
+- [黑客松对开发者有什么用](./Special/Hackathon.md)
+
 ## 智能合约事件分析
 
 有了区块链技术的基础，在智能合约上编程，真正做到了“code is law，code is money”。这里会收集一些实时的智能合约事件及其技术和模式的分析。
