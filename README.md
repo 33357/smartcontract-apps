@@ -46,7 +46,11 @@ wx：im33357(备注sc-apps)
 
 - [如何成为躺着赚钱的科学家](./Special/Scientist.md)
 
-- [黑客松对开发者有什么用](./Special/Hackathon.md)
+## 会议篇
+
+- [黑客松对开发者有什么用](./Meeting/Hackathon.md)
+
+- [2023年香港 web3 嘉年华](./Meeting/Web3HongKong.md)
 
 ## 智能合约事件分析
 
