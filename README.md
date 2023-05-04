@@ -50,9 +50,7 @@ wx：im33357(备注sc-apps)
 
 [GasTracker](https://etherscan.io/gastracker) 排名靠前的合约具有较高的研究价值
 
-- [Uniswap Universal Router 之 Permit2 合约分析](./Event/UniswapUniversalRouter_Permit2.md)
-
-
+- [Uniswap Universal Router 之 Permit2 合约分析](./Gas/UniswapUniversalRouter_Permit2.md)
 
 ## 会议篇
 
