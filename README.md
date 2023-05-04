@@ -46,6 +46,14 @@ wx：im33357(备注sc-apps)
 
 - [如何成为躺着赚钱的科学家](./Special/Scientist.md)
 
+## GAS 排名合约分析
+
+[GasTracker](https://etherscan.io/gastracker) 排名靠前的合约具有较高的研究价值
+
+- [Uniswap Universal Router 之 Permit2 合约分析](./Event/UniswapUniversalRouter_Permit2.md)
+
+
+
 ## 会议篇
 
 - [黑客松对开发者有什么用](./Meeting/Hackathon.md)
