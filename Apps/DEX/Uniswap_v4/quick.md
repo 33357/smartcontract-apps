@@ -42,4 +42,5 @@ v4 对 v3 的改进主要在提出 hooks 和节约 gas 上，虽然新的使用�
 ## 引用
 
 [whitepaper-v4-draft-zh](https://github.com/33357/v4-core/blob/main/whitepaper-v4-draft-zh.pdf)
+
 [whitepaper-v4-draft](https://github.com/33357/v4-core/blob/main/whitepaper-v4-draft.pdf)
