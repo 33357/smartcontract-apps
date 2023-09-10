@@ -11,10 +11,10 @@
 
 - [快速了解 uniswap_v4](./quick.md)
 
-<!-- - [uniswap_v4 合约结构解析](./model.md)
+- [uniswap_v4 合约结构解析](./model.md)
 
-- [poolManager 合约解析](./poolManager.md)
+<!-- - [poolManager 合约解析](./poolManager.md) -->
 
-- [pool 合约解析](./pool.md)
+<!-- - [pool 合约解析](./pool.md) -->
 
-- [fees&hooks 合约解析](./fee&hook.md) -->
+<!-- - [fees&hooks 合约解析](./fee&hook.md) -->
