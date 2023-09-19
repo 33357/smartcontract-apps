@@ -13,7 +13,7 @@
 
 - [uniswap_v4 合约结构解析](./model.md)
 
-<!-- - [poolManager 合约解析](./poolManager.md) -->
+- [poolManager 合约解析](./poolManager.md)
 
 <!-- - [pool 合约解析](./pool.md) -->
 
