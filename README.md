@@ -56,6 +56,10 @@ wx：im33357(备注sc-apps)
 
 - [Uniswap Universal Router 之 Permit2 合约分析](./Gas/UniswapUniversalRouter_Permit2.md)
 
+## EIPS
+
+- [EIP7511 最小代理合约解析](./EIPS/eip7511.md)
+
 ## 会议篇
 
 - [黑客松对开发者有什么用](./Meeting/Hackathon.md)
