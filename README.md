@@ -47,8 +47,8 @@ wx：im33357(备注sc-apps)
 - [如何成为资深智能合约工程师](./Special/Dev.md)
 
 - [如何成为躺着赚钱的科学家](./Special/Scientist.md)
-<!-- 
-- [选择什么语言编写智能合约](./Special/Language.md) -->
+
+- [选择什么语言编写智能合约](./Special/Language.md)
 
 ## GAS 排名合约分析
 
