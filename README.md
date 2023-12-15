@@ -147,6 +147,8 @@ SOLIDITY 是目前使用最广泛的 EVM 智能合约语言，通过学习它可
 
 - [BRC20 解析](./Search/brc20.md)
 
+- [ethscriptions 铭文链和哑合约](./Search/ethscriptions.md)
+
 ## 套利机器人
 在区块链上实现盈利的机器人有不少种类，如果策略得当的话可以实现躺赚目标。这里会记录一些机器人的类型和实现。
 
