@@ -60,6 +60,8 @@ wx：im33357(备注sc-apps)
 
 - [EIP7511 最小代理合约解析](./EIPS/eip7511.md)
 
+- [比最小代理更小的代理合约](./EIPS/smallerProxy.md)
+
 ## 会议篇
 
 - [黑客松对开发者有什么用](./Meeting/Hackathon.md)
