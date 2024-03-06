@@ -162,9 +162,8 @@ SOLIDITY 是目前使用最广泛的 EVM 智能合约语言，通过学习它可
 
 - [MEV 是在为谁工作](./Robot/MEV_Who_are_you_working_for.md)
 
+- [一个通用的套利交易模型](./Robot/TradeModel.md)
+
 ## 维护员
 
 [@33357](https://github.com/33357)
-
-
-
