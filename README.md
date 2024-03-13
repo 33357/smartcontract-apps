@@ -62,6 +62,8 @@ wx：im33357(备注sc-apps)
 
 - [比最小代理更小的代理合约](./EIPS/smallerProxy.md)
 
+- [坎昆升级简析](./EIPS/dencun.md)
+
 ## 会议篇
 
 - [黑客松对开发者有什么用](./Meeting/Hackathon.md)
