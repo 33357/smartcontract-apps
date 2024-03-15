@@ -14,7 +14,7 @@
 
 - [EIP-4844](https://eips.ethereum.org/EIPS/eip-4844) 分片机制 BLOB 加入
 
-坎昆升级最大的变化是引入了新的交易机制 Type3 (区别于 eip1559 的 Type2 、区别于 eip2930 的 Type1 和原生的 Type0)，用户可以在交易中添加 Blob Data 并支付 Blob Fee 来向区块链提交额外数据。值得注意的是，EVM 无法直接访问 Blob 数据，只能验证 Blob 数据的正确性和完整性。而且 Blob 数据无法永久保存，只能在以太坊上停留大约 18 天。
+坎昆升级最大的变化是引入了新的交易机制 Type3 (区别于 eip1559 的 Type2 、eip2930 的 Type1 和原生的 Type0)，用户可以在交易中添加 Blob Data 并支付 Blob Fee 来向区块链提交额外数据。值得注意的是，EVM 无法直接访问 Blob 数据，只能验证 Blob 数据的正确性和完整性。而且 Blob 数据无法永久保存，只能在以太坊上停留大约 18 天。
 
 ![dencun](./dencun1.jpg)
 
