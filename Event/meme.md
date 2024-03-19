@@ -20,6 +20,13 @@
     uint256 public immutable targetAmount = 1000 ether;
     // LP 是否开启，默认为 false
     bool public LPopen;
+    // WAVAX
+    IWETH WAVAX = IWETH(0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7);
+    // 创建 uniswapV2 的池子
+    address pair = IUniswapV2Factory(0x9e5A52f57b3038F1B8EeE45F28b3C1967e22799C).createPair(
+        address(this),
+        address(WAVAX)
+    );
 
     // 全称为 AVAXMEME，符号为 AVME
     constructor() ERC20("AVAXMEME", "AVME") {}
@@ -87,12 +94,6 @@
         uint256 amountWAVAX = address(this).balance;
         // 达不到目标额度不能开启 LP
         require(amountWAVAX >= targetAmount, "target not reached");
-        IWETH WAVAX = IWETH(0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7);
-        // 创建 uniswapV2 的池子
-        address pair = IUniswapV2Factory(0x9e5A52f57b3038F1B8EeE45F28b3C1967e22799C).createPair(
-            address(this),
-            address(WAVAX)
-        );
         // AVAX 换成 WAVAX
         WAVAX.deposit{value: amountWAVAX}();
         // 添加池子流动性，所有 WAVAX + 1/4 总量的 AVAXMEME
