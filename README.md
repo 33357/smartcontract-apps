@@ -76,6 +76,8 @@ wx：im33357(备注sc-apps)
 
 <!-- - [XEN，又一次的 GAS 换真金](./Event/Xen.md) -->
 
+- [让 EVM 再次伟大，用智能合约保证 MEME 的安全](./Event/meme.md)
+
 - [当去中心化遇到攻击: BSC停机事件](./Event/WhenAttackDecentralization.md)
 
 - [又是用户转移资产权限被盗，如何确保加密资产安全？](./Event/ContractApproveHack.md)
