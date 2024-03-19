@@ -107,4 +107,4 @@
 
 ## 结语
 
-完整代码在 AVAX 地址 https://snowtrace.io/address/0x09515534BdB84dc2Fa79C7a537F00a60Ca4bd693 ，只要正确使用智能合约，MEME 就不可能跑路，对代码而不是某个人的信任会让 EVM 再次伟大。
+完整代码已经部署在 AVAX 地址 https://snowtrace.io/address/0x09515534BdB84dc2Fa79C7a537F00a60Ca4bd693 ，只要正确使用智能合约，MEME 就不可能跑路，对代码而不是某个人的信任会让 EVM 再次伟大。
