@@ -30,9 +30,9 @@ twitter：[im33357dr](https://twitter.com/im33357dr)
 
 tg: [smartcontractapps](https://t.me/smartcontractapps)
 
-discord: [智能合约应用](https://discord.gg/YjsvmyG84H)
-
 wx：im33357(备注sc-apps)
+
+discord: [智能合约应用](https://discord.gg/YjsvmyG84H)
 
 ## 特别篇
 
