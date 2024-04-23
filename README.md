@@ -128,6 +128,8 @@ SOLIDITY 是目前使用最广泛的 EVM 智能合约语言，通过学习它可
 
 - 其他技巧
 
+    - [不受单个矿工控制的链上随机数生成方法](./Solidity/Other/random.md)
+
     - [最省GAS链上排序](./Solidity/Other/Save_Gas_Sort.md)
 
     - [NFT 所有者 tokenID 快速查询](./Solidity/Other/NFT_Search.md)
