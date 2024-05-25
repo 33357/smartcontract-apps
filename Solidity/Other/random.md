@@ -24,8 +24,8 @@
 pragma solidity ^0.8.20;
 
 contract Random {
-    // 获取随机数
-    function getRandom() external view returns (uint256 random) {
+    // 获取随机数，只能用在 256 个块之前的行为
+    function getRandomUsedBefore256() external view returns (uint256 random) {
         // 遍历最近的 256 个块
         for (uint256 i; i < 256; i++) {
             // 获得 (block.number - i) 区块的 hash 的最后 1 位数
