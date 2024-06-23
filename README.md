@@ -60,6 +60,8 @@ wx：_33357xyz(备注sc-apps)
 
 ## EIPS
 
+- [反闪电贷协议 EIP7690](./EIPS/eip7690.md)
+
 - [EIP7511 最小代理合约解析](./EIPS/eip7511.md)
 
 - [比最小代理更小的代理合约](./EIPS/smallerProxy.md)
