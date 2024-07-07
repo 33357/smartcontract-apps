@@ -33,7 +33,7 @@ contract ZeroTransferAttack {
 
 很多人会奇怪，没有经过 `approve` 也能调用 `transferFrom` 吗？
 
-由于 `ERC20` 合约的 `transferFrom` 方法接受数量为 `0` 的调用，而没有授权的状态就是 `0`。因此没有经过 `approve` 授权也可以调用 `transferFrom` 生成转账记录，这大大降低了进行数量为 0 转账的操作成本。
+是的，由于 `ERC20` 合约的 `transferFrom` 方法接受数量为 `0` 的调用，而没有授权的状态就是 `0`。因此没有经过 `approve` 授权也可以调用 `transferFrom` 生成转账记录，这大大降低了进行数量为 0 转账的操作成本。
 
 ```javascript
 function transferFrom(
