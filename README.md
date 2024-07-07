@@ -80,6 +80,8 @@ wx：_33357xyz(备注sc-apps)
 
 <!-- - [XEN，又一次的 GAS 换真金](./Event/Xen.md) -->
 
+- [写一个 0 转账攻击合约](./Event/0TransferAttack.md)
+
 - [警惕科学家钓鱼合约](./Event/FishingScientist.md)
 
 - [让 EVM 再次伟大，用智能合约保证 MEME 的安全](./Event/meme.md)
@@ -101,8 +103,6 @@ wx：_33357xyz(备注sc-apps)
 - [以太坊POS合并带来的赚钱机会](./Event/PosMerge.md)
 
 - [ETHW重放攻击](./Event/Replay.md)
-
-<!-- - [0转账攻击](./Event/0TransferAttack.md) -->
 
 ## 智能合约应用
 
