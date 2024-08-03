@@ -74,7 +74,7 @@ wx：_33357xyz(备注sc-apps)
 
 - [2023年香港 web3 嘉年华](./Meeting/Web3HongKong.md)
 
-- [AdventureX 和 EDCON](./Meeting/AdventureX&EDCON.md) -->
+- [AdventureX 和 EDCON](./Meeting/AdventureX&EDCON.md)
 
 ## 智能合约事件分析
 
