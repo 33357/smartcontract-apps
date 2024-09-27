@@ -82,6 +82,8 @@ wx：_33357xyz(备注sc-apps)
 
 <!-- - [XEN，又一次的 GAS 换真金](./Event/Xen.md) -->
 
+- [一个 ETH 换一个 BTC，uniBTC 被盗千万](./Event/2024-9-27/README.md)
+
 - [写一个 0 转账攻击合约](./Event/0TransferAttack.md)
 
 - [警惕科学家钓鱼合约](./Event/FishingScientist.md)
