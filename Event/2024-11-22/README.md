@@ -2,7 +2,7 @@
 
 ## 备注
 
-时间：2023 年 11 月 22 日
+时间：2024 年 11 月 22 日
 
 作者：[33357](https://github.com/33357)
 
@@ -67,9 +67,9 @@ docker 配置比较复杂，建议看 [MT3000首款iStoreOS固件尝鲜和后续
 
 ### 配置教程
 
-[MT3000 配置教程](./tech.md)
+文字版：[MT3000 配置教程](./tech.md)
 
-[【纯享版】GL-iNet MT3000如何快速iStoreOS风格](https://www.bilibili.com/video/BV1312bYZEjE/?share_source=copy_web&vd_source=79ea1e91011d12ace138fe77572302d8)
+视频版：[【纯享版】GL-iNet MT3000如何快速iStoreOS风格](https://www.bilibili.com/video/BV1312bYZEjE/?share_source=copy_web&vd_source=79ea1e91011d12ace138fe77572302d8)
 
 ### 购买链接
 
