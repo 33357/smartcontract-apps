@@ -50,7 +50,7 @@ wx：_33357xyz(备注sc-apps)
 
 - [选择什么语言编写智能合约](./Special/Language.md)
 
-## 产品推荐
+## 使用推荐
 
 - [数字游民的便携路由](./Event/2024-11-22/README.md)
 
