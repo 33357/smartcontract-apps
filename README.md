@@ -74,6 +74,8 @@ wx：_33357xyz(备注sc-apps)
 
 ## 会议篇
 
+- [Devcon 和 Smartcon](./Meeting/Devcon&Smartcon.md)
+
 - [黑客松对开发者有什么用](./Meeting/Hackathon.md)
 
 - [2023年香港 web3 嘉年华](./Meeting/Web3HongKong.md)
