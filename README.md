@@ -88,6 +88,8 @@ wx：_33357xyz(备注sc-apps)
 
 <!-- - [XEN，又一次的 GAS 换真金](./Event/Xen.md) -->
 
+- [狂印 48 亿 U，新型加密资产质押协议 ethena](./Event/Ethena.md)
+
 - [多钱包自动打币机器人](./Event/2024-10-19/README.md)
 
 - [一个 ETH 换一个 BTC，uniBTC 被盗千万](./Event/2024-9-27/README.md)
