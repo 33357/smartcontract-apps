@@ -24,6 +24,8 @@ XEN 对我来说是一个神奇的项目。2 月的时候，我发现了 RND，�
 
 ## 通知推送
 
+个人网站：[33357.xyz](https://33357.xyz)
+
 twitter：[33357xyz](https://twitter.com/33357xyz)
 
 ## 加入社群
