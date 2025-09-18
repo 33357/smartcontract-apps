@@ -76,6 +76,8 @@ wx：_33357xyz(备注sc-apps)
 
 ## 会议篇
 
+- [年轻人，甚至无法改变一场黑客松](./Meeting/Hackathon2.md)
+
 - [Devcon 和 Smartcon](./Meeting/Devcon&Smartcon.md)
 
 - [黑客松对开发者有什么用](./Meeting/Hackathon.md)
