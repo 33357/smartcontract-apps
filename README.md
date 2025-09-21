@@ -92,7 +92,7 @@ wx：_33357xyz(备注sc-apps)
 
 <!-- - [XEN，又一次的 GAS 换真金](./Event/Xen.md) -->
 
-- [常用空投签名方案](./Event/AirdropSign.md)
+- [空投常用签名方案](./Event/AirdropSign.md)
 
 - [狂印 48 亿 U，新型加密资产质押协议 ethena](./Event/Ethena.md)
 
