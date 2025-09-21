@@ -42,7 +42,7 @@ graph TD
 
 ### EIP712
 
-EIP712 的流程是直接依赖签名者的私钥：
+EIP712 的流程要依赖私钥的签名：
 
 1. 构建者定义 EIP-712 的 `Domain` 和 `Types`。
 2. 对每个 `(地址, 数量)` 使用 `signer` 私钥签名，得到 `signature`。
