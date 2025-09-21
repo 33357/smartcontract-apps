@@ -6,13 +6,9 @@
 
 作者：[33357](https://github.com/33357)
 
----
-
 ## 正文
 
 目前常见的空投签名方式主要有 **Merkle List** 和 **EIP712** 两种。下面我会对它们的机制和区别做个分析。
-
----
 
 ### Merkle List
 
@@ -44,20 +40,18 @@ graph TD
 2. 用户证明数据的大小与树的高度成正比，地址越多，证明就越长。
 3. 一般会公开整棵树，大家都能看到每个地址的分配和总空投量。
 
----
-
 ### EIP712
 
 EIP712 的流程是直接依赖签名者的私钥：
 
-1. 构建者定义 EIP-712 的 Domain 和 Types。
+1. 构建者定义 EIP-712 的 `Domain` 和 `Types`。
 2. 对每个 `(地址, 数量)` 使用 signer 私钥签名，得到 `signature`。
 3. 合约只需要存储 signer 的地址。
 4. 用户提交 `(地址, 数量, signature)`，合约通过 ECDSA 验证签名者是否等于 signer。
 
 ```mermaid
 graph LR
-    D[Domain Types] --> Sig[signature]
+    D[Domain, Types] --> Sig[signature]
     S[signer 私钥] --> Sig
     P[地址, 数量] --> Sig
     Sig --> E[ECDSA 解析地址]
@@ -69,8 +63,6 @@ graph LR
 1. signer 可以随时签发新空投，灵活性强。
 2. 用户证明数据大小固定，不随空投地址数量变化。
 3. 一般只会告诉用户自己的额度，无法看到整体分配情况。
-
----
 
 ### 总结
 
