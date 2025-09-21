@@ -12,7 +12,7 @@
 
 ### Merkle List
 
-Merkle List 的流程需要先构建一棵默克尔树：
+使用 Merkle List 要先构建一棵默克尔树：
 
 1. 构建者先准备好空投地址和数量。
 2. 对每个 `(地址, 数量)` 计算 `keccak256(addr, amount)`，得到叶子节点。
@@ -42,7 +42,7 @@ graph TD
 
 ### EIP712
 
-EIP712 的流程要依赖私钥的签名：
+使用 EIP712 要依赖私钥的签名：
 
 1. 构建者定义 EIP-712 的 `Domain` 和 `Types`。
 2. 对每个 `(地址, 数量)` 使用 `signer` 私钥签名，得到 `signature`。
