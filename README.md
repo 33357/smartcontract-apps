@@ -169,6 +169,8 @@ SOLIDITY 是目前使用最广泛的 EVM 智能合约语言，通过学习它可
 
 - [2022年中展望](./Outlook/2022_MidYear.md)
 
+- [AI 时代下的 Web3 开发](./Outlook/ai&web3/README.md)
+
 <!-- - [33357的目标](./Outlook/Target.md) -->
 
 <!-- - [人生的边际效应](./Outlook/Marginal_Utility.md) -->
