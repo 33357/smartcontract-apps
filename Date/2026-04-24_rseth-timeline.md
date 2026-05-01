@@ -2,7 +2,7 @@
 
 ## 备注
 
-时间：2025 年 4 月 24 日
+时间：2026 年 4 月 24 日
 
 作者：[33357](https://github.com/33357)
 
@@ -42,8 +42,14 @@
 | 2026-04-25 12:23 | Sam Mason de Caires 宣布已搭建贡献追踪仪表盘 https://defiunited.world 为大家使用。| [X](https://x.com/sammdec/status/2047712948647338036) |
 | 2026-04-25 21:35 | Aave 宣布与 Ether.fi、KelpDAO、LayerZero、Compound 等向 Arbitrum DAO 提交治理提案，要求释放 Arbitrum 安全委员会冻结的 30,766 ETH 进入 DeFi United。 | [X](https://x.com/aave/status/2048033243727806909) |
 | 2026-04-26 08:10 | KelpDAO 宣布向 DeFi United 贡献 2000 ETH。 | [X](https://x.com/KelpDAO/status/2048193002615799838) |
+| 2026-04-27 19:09 | Marcelo Ruiz de Olano 宣布个人向 defiunited.world 贡献 100 ETH。 | [X](https://x.com/claberus/status/2048721258238333426) |
+| 2026-04-27 21:39 | Consensys 宣布向 DeFi United 贡献 30000 ETH。 | [X](https://x.com/Consensys/status/2048758840959578577) |
+| 2026-04-28 04:44 | Compound 宣布向 DeFi United 贡献 3000 ETH。 | [X](https://x.com/Compound_xyz/status/2048865871096168838) |
+| 2026-04-28 10:51 | Aave 宣布 DeFi United 已筹集足够的承诺援助，将恢复 rsETH 的底层资产，清理受影响的仓位并恢复市场的正常运营。 | [X](https://x.com/aave/status/2048958367658332413) |
+| 2026-04-29 02:46 | LayerZero 宣布向 DeFi United 贡献 5000 ETH。 | [X](https://x.com/LayerZero_Core/status/2049198660068802867) |
 
-目前已经宣布的救助总额为: Lido 2,500 + ether.fi 5,000 + Stani 5,000 + Golem 1,000 + Mantle 30,000 + Ernesto 100 + BGD 250 + Emilio 500 + Aave 25,000 + Keyring 20 + Arbitrum 30,766 + KelpDAO 2,000 = 102,136 ETH。
+
+目前已经宣布的救助总额为: Lido 2,500 + ether.fi 5,000 + Stani 5,000 + Golem 1,000 + Mantle 30,000 + Ernesto 100 + BGD 250 + Emilio 500 + Aave 25,000 + Keyring 20 + Arbitrum 30,766 + KelpDAO 2,000 + Marcelo 100 + Consensys 30,000 + Compound 3,000 + LayerZero 5,000 = 140,236 ETH。
 
 
 # rsETH $290M Theft — Timeline
@@ -90,5 +96,10 @@ The biggest recent news has been the KelpDAO rsETH theft. Information from vario
 | 2026-04-25 04:23 | Sam Mason de Caires announced the launch of a contribution tracking dashboard at https://defiunited.world. | [X](https://x.com/sammdec/status/2047712948647338036) |
 | 2026-04-25 13:35 | Aave announced that it, together with Ether.fi, KelpDAO, LayerZero, Compound, and others, submitted a governance proposal to Arbitrum DAO requesting the release of the 30,766 ETH frozen by the Arbitrum Security Council into DeFi United. | [X](https://x.com/aave/status/2048033243727806909) |
 | 2026-04-26 00:10 | KelpDAO announced a contribution of 2,000 ETH to DeFi United. | [X](https://x.com/KelpDAO/status/2048193002615799838) |
+| 2026-04-27 11:09 | Marcelo Ruiz de Olano announced a personal contribution of 100 ETH to defiunited.world. | [X](https://x.com/claberus/status/2048721258238333426) |
+| 2026-04-27 13:39 | Consensys announced a contribution of 30,000 ETH to DeFi United. | [X](https://x.com/Consensys/status/2048758840959578577) |
+| 2026-04-27 20:44 | Compound announced a contribution of 3,000 ETH to DeFi United. | [X](https://x.com/Compound_xyz/status/2048865871096168838) |
+| 2026-04-28 02:51 | Aave announced that DeFi United has raised sufficient pledged support to restore the underlying assets of rsETH, unwind affected positions, and resume normal market operations. | [X](https://x.com/aave/status/2048958367658332413) |
+| 2026-04-28 18:46 | LayerZero announced a contribution of 5,000 ETH to DeFi United. | [X](https://x.com/LayerZero_Core/status/2049198660068802867) |
 
-Total announced rescue contributions to date: Lido 2,500 + ether.fi 5,000 + Stani 5,000 + Golem 1,000 + Mantle 30,000 + Ernesto 100 + BGD 250 + Emilio 500 + Aave 25,000 + Keyring 20 + Arbitrum 30,766 + KelpDAO 2,000 = **102,136 ETH**.
+Total announced rescue contributions to date: Lido 2,500 + ether.fi 5,000 + Stani 5,000 + Golem 1,000 + Mantle 30,000 + Ernesto 100 + BGD 250 + Emilio 500 + Aave 25,000 + Keyring 20 + Arbitrum 30,766 + KelpDAO 2,000 + Marcelo 100 + Consensys 30,000 + Compound 3,000 + LayerZero 5,000 = 140,236 ETH。
