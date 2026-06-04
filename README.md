@@ -210,10 +210,3 @@ SOLIDITY 是目前使用最广泛的 EVM 智能合约语言，通过学习它可
 ## 维护员
 
 [@33357](https://github.com/33357)
-
-
-其他片段见合集
-完整电影见网盘里的电影文件夹
-百度网盘：https://pan.baidu.com/s/11isT5rqL3EDsnzXsVe-wTA  提取码: 2sck
-夸克网盘：https://pan.quark.cn/s/62f388473738 提取码：j256
-解压密码：dianying
