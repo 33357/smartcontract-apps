@@ -144,6 +144,10 @@ wx：_33357xyz(备注sc-apps)
 
 - 2022-09-14 · [如何在区块链领域用技术赚钱](./Date/2022-09-14_Earn/README.md)
 
+- 2022-08-27 · [合约检查攻击](./Date/2022-08-27_noContract_Attack/README.md)
+
+- 2022-08-20 · [整数溢出攻击](./Date/2022-08-20_Overflow/README.md)
+
 - 2022-08-13 · [交易回滚攻击](./Date/2022-08-13_Transaction_Rollback_Attack/README.md)
 
 - 2022-07-27 · [合约重入攻击](./Date/2022-07-27_Reentrancy_Attack/README.md)
