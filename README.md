@@ -39,175 +39,175 @@ wx：_33357xyz(备注sc-apps)
 
 ## 时间排序
 
-- [小心 Web3 面试骗局](./Date/web3面试骗局/web3面试骗局.md)
+按时间由新到旧排列；优先使用文章正文标注的日期，未标注日期的使用 Git 历史中最早的提交日期。
 
-- [2026-05-01_加密是一个整体，史上最大 DeFi 黑客事件总结](./Date/2026-05-01_rseth.md)
+### 2026 年
 
-- [2026-04-24_rsETH 被盗2.9亿美元时间线整理](./Date/2026-04-24_rseth-timeline.md)
+- 2026-09-09 · [小心 Web3 面试骗局](./Date/2026-09-09_web3面试骗局/README.md)
 
-- [2026-04-16_什么是冻U、黑U、假U](./Date/2026-04-16_黑U.md)
+- 2026-05-01 · [加密是一个整体，史上最大 DeFi 黑客事件总结](./Date/2026-05-01_rseth/README.md)
 
-## 特别篇
+- 2026-04-24 · [rsETH 被盗2.9亿美元时间线整理](./Date/2026-04-24_rseth-timeline/README.md)
 
-这是一些具有指导性的文章，可以为你指明前进的方向。
+- 2026-04-16 · [什么是冻U、黑U、假U](./Date/2026-04-16_黑U/README.md)
 
-<!-- - [Web3 自由之道](./Special/Web3FreeDao.md) -->
+### 2025 年
 
-- [如何入门智能合约开发](./Special/New.md)
+- 2025-11-22 · [AI 时代下的 Web3 开发](./Date/2025-11-22_ai&web3/README.md)
 
-- [如何在区块链领域用技术赚钱](./Special/Earn.md)
+- 2025-09-21 · [空投常用签名方案](./Date/2025-09-21_AirdropSign/README.md)
 
-- [如何成为资深智能合约工程师](./Special/Dev.md)
+- 2025-09-18 · [年轻人，甚至无法改变一场黑客松](./Date/2025-09-18_Hackathon2/README.md)
 
-- [如何成为躺着赚钱的科学家](./Special/Scientist.md)
+### 2024 年
 
-- [选择什么语言编写智能合约](./Special/Language.md)
+- 2024-12-04 · [狂印 48 亿 U，新型加密资产质押协议 ethena](./Date/2024-12-04_Ethena/README.md)
 
-## 使用推荐
+- 2024-11-26 · [Devcon 和 Smartcon](./Date/2024-11-26_Devcon&Smartcon/README.md)
 
-- [数字游民的便携路由](./Event/2024-11-22/README.md)
+- 2024-11-22 · [数字游民的便携路由](./Date/2024-11-22_Event/README.md)
 
-## GAS 排名合约分析
+- 2024-11-22 · [MT3000 配置教程](./Date/2024-11-22_tech/README.md)
 
-[GasTracker](https://etherscan.io/gastracker) 排名靠前的合约具有较高的研究价值
+- 2024-09-27 · [一个 ETH 换一个 BTC，uniBTC 被盗千万](./Date/2024-09-27_Event/README.md)
 
-- [通过 GAS 排行搜寻新机会](./Gas/GasSearch.md)
+- 2024-08-03 · [AdventureX 和 EDCON](./Date/2024-08-03_AdventureX&EDCON/README.md)
 
-- [Uniswap Universal Router 之 Permit2 合约分析](./Gas/UniswapUniversalRouter_Permit2.md)
+- 2024-07-07 · [写一个 0 转账攻击合约](./Date/2024-07-07_0TransferAttack/README.md)
 
-## EIPS
+- 2024-06-30 · [警惕科学家钓鱼合约](./Date/2024-06-30_FishingScientist/README.md)
 
-- [反闪电贷协议 EIP7690](./EIPS/eip7690.md)
+- 2024-06-23 · [反闪电贷协议 EIP7690](./Date/2024-06-23_eip7690/README.md)
 
-- [EIP7511 最小代理合约解析](./EIPS/eip7511.md)
+- 2024-06-01 · [通过 GAS 排行搜寻新机会](./Date/2024-06-01_GasSearch/README.md)
 
-- [比最小代理更小的代理合约](./EIPS/smallerProxy.md)
+- 2024-04-23 · [不受单个矿工控制的链上随机数生成方法](./Date/2024-04-23_random/README.md)
 
-- [坎昆升级简析](./EIPS/dencun.md)
+- 2024-03-19 · [让 EVM 再次伟大，用智能合约保证 MEME 的安全](./Date/2024-03-19_meme/README.md)
 
-## 会议篇
+- 2024-03-13 · [坎昆升级简析](./Date/2024-03-13_dencun/README.md)
 
-- [年轻人，甚至无法改变一场黑客松](./Meeting/Hackathon2.md)
+### 2023 年
 
-- [Devcon 和 Smartcon](./Meeting/Devcon&Smartcon.md)
+- 2023-12-09 · [ethscriptions 铭文链和哑合约](./Date/2023-12-09_ethscriptions/README.md)
 
-- [黑客松对开发者有什么用](./Meeting/Hackathon.md)
+- 2023-11-29 · [BRC20 解析](./Date/2023-11-29_brc20/README.md)
 
-- [2023年香港 web3 嘉年华](./Meeting/Web3HongKong.md)
+- 2023-10-19 · [多钱包自动打币机器人](./Date/2023-10-19_Event/README.md)
 
-- [AdventureX 和 EDCON](./Meeting/AdventureX&EDCON.md)
+- 2023-10-04 · [一个通用的套利交易模型](./Date/2023-10-04_TradeModel/README.md)
 
-## 智能合约事件分析
+- 2023-09-26 · [选择什么语言编写智能合约](./Date/2023-09-26_Language/README.md)
 
-有了区块链技术的基础，在智能合约上编程，真正做到了“code is law，code is money”。这里会收集一些实时的智能合约事件及其技术和模式的分析。
+- 2023-09-17 · [比最小代理更小的代理合约](./Date/2023-09-17_smallerProxy/README.md)
 
-<!-- - [XEN，又一次的 GAS 换真金](./Event/Xen.md) -->
+- 2023-09-09 · [EIP7511 最小代理合约解析](./Date/2023-09-09_eip7511/README.md)
 
-- [空投常用签名方案](./Event/AirdropSign.md)
+- 2023-09-01 · [Uniswap_v4：fees&hooks 合约解析](./Date/2023-09-01_Uniswap_v4_fees&hooks/README.md)
 
-- [狂印 48 亿 U，新型加密资产质押协议 ethena](./Event/Ethena.md)
+- 2023-08-13 · [Uniswap_v4](./Date/2023-08-13_Uniswap_v4/README.md)
 
-- [多钱包自动打币机器人](./Event/2024-10-19/README.md)
+- 2023-08-13 · [Uniswap_v4：poolManager 合约解析](./Date/2023-08-13_Uniswap_v4_poolManager/README.md)
 
-- [一个 ETH 换一个 BTC，uniBTC 被盗千万](./Event/2024-9-27/README.md)
+- 2023-08-06 · [uniswap_v4 合约结构解析](./Date/2023-08-06_Uniswap_v4_model/README.md)
 
-- [写一个 0 转账攻击合约](./Event/0TransferAttack.md)
+- 2023-07-29 · [快速了解 uniswap_v4](./Date/2023-07-29_Uniswap_v4_quick/README.md)
 
-- [警惕科学家钓鱼合约](./Event/FishingScientist.md)
+- 2023-06-29 · [以太坊扩容：L2 详解](./Date/2023-06-29_L2/README.md)
 
-- [让 EVM 再次伟大，用智能合约保证 MEME 的安全](./Event/meme.md)
+- 2023-05-02 · [Uniswap Universal Router 之 Permit2 合约分析](./Date/2023-05-02_UniswapUniversalRouter_Permit2/README.md)
 
-- [当去中心化遇到攻击: BSC停机事件](./Event/WhenAttackDecentralization.md)
+- 2023-04-17 · [2023年香港 web3 嘉年华](./Date/2023-04-17_Web3HongKong/README.md)
 
-- [又是用户转移资产权限被盗，如何确保加密资产安全？](./Event/ContractApproveHack.md)
+- 2023-04-13 · [黑客松对开发者有什么用](./Date/2023-04-13_Hackathon/README.md)
 
-- [RandomDAO事件](./Event/RandomDAO.md)
+- 2023-02-11 · [如何预测最低的 GasPrice](./Date/2023-02-11_Lowest_GasPrice/README.md)
 
-- [EIP1559下的GAS费设置](./Event/EIP1559_GAS.md)
+- 2023-02-01 · [Solidity 智能合约开发流程](./Date/2023-02-01_Solidity_Development_Process/README.md)
 
-- [X2Y2: 必须修改的中心化NFT挂单奖励机制](./Event/X2Y2_DecentralizedOrderReward.md)
+### 2022 年
 
-- [链上通信协议](./Event/OnChainMessageProtocol.md)
+- 2022-12-28 · [NFT 所有者 tokenID 快速查询](./Date/2022-12-28_NFT_Search/README.md)
 
-- [CheapSwap协议的诞生](./Event/CheapSwap.md)
+- 2022-12-17 · [如何入门智能合约开发](./Date/2022-12-17_New/README.md)
 
-- [以太坊POS合并带来的赚钱机会](./Event/PosMerge.md)
+- 2022-12-14 · [MEV 是在为谁工作](./Date/2022-12-14_MEV_Who_are_you_working_for/README.md)
 
-- [ETHW重放攻击](./Event/Replay.md)
+- 2022-10-08 · [当去中心化遇到攻击: BSC停机事件](./Date/2022-10-08_WhenAttackDecentralization/README.md)
 
-## 智能合约应用
+- 2022-10-02 · [又是用户转移资产权限被盗，如何确保加密资产安全？](./Date/2022-10-02_ContractApproveHack/README.md)
 
-- DEX
+- 2022-09-27 · [如何成为躺着赚钱的科学家](./Date/2022-09-27_Scientist/README.md)
 
-        去中心化交易所，又称DEX，是指基于区块链上智能合约实现的代币交易类应用。用户可以在区块链上完成“代币定价-支付代币-获得代币”的完整业务流程，实现无需托管的代币交易。但同时用户也会受到交易深度不够、合约被黑客攻击和链上手续费高昂等问题的困扰。
+- 2022-09-19 · [ETHW重放攻击](./Date/2022-09-19_Replay/README.md)
 
-    - [Uniswap_v2](./Apps/DEX/Uniswap_v2/)
+- 2022-09-16 · [以太坊POS合并带来的赚钱机会](./Date/2022-09-16_PosMerge/README.md)
 
-    - [Uniswap_v4](./Apps/DEX/Uniswap_v4/)
+- 2022-09-15 · [如何成为资深智能合约工程师](./Date/2022-09-15_Dev/README.md)
 
-- Loan
+- 2022-09-14 · [如何在区块链领域用技术赚钱](./Date/2022-09-14_Earn/README.md)
 
-        去中心化借贷，是DEFI的一种重要形式，是一种基于区块链上智能合约实现的代币借贷类应用。用户可以在区块链上完成“代币存借-收益计算-获得/支付利息”的完整业务流程，实现无需认证的自动化超抵押借贷。
+- 2022-08-13 · [2. 交易回滚攻击](./Date/2022-08-13_2_Transaction_Rollback_Attack/README.md)
 
-    - [Compound](./Apps/Loan/Compound/)
+- 2022-07-27 · [1. 合约重入攻击](./Date/2022-07-27_1_Reentrancy_Attack/README.md)
 
-## Solidity 使用技巧
+- 2022-07-19 · [2022年中展望](./Date/2022-07-19_2022_MidYear/README.md)
 
-SOLIDITY 是目前使用最广泛的 EVM 智能合约语言，通过学习它可以了解智能合约的运行机制，并设计出更加符合业务的 DAPP。
+- 2022-06-28 · [CheapSwap协议的诞生](./Date/2022-06-28_CheapSwap/README.md)
 
-- 100 个 Solidity 使用技巧
+- 2022-06-13 · [Compound：Comptroller合约解析](./Date/2022-06-13_Compound_comptroller_understand/README.md)
 
-        提示：阅读本教程需要一定的 solidity 基础知识。为了帮助智能合约开发者更好地使用 Solidity，我会在讲解代码的同时给出测试用例，帮助开发者在实践中更好地理解 Solidity 的特性。在这里，我会使用 [https://remix.ethereum.org/](https://remix.ethereum.org/) 作为 Solidity 的开发工具给大家演示，Soldity 版本为 0.8.12。
+- 2022-06-13 · [Compound：CToken合约解析](./Date/2022-06-13_Compound_cToken_understand/README.md)
 
-    - [1. 合约重入攻击](./Solidity/Solidity_100/1_Reentrancy_Attack/)
+- 2022-06-13 · [最省GAS链上排序](./Date/2022-06-13_Save_Gas_Sort/README.md)
 
-    - [2. 交易回滚攻击](./Solidity/Solidity_100/2_Transaction_Rollback_Attack/)
+- 2022-06-07 · [Compound：RateModel合约解析](./Date/2022-06-07_Compound_rateModel_understand/README.md)
 
-- 其他技巧
+- 2022-06-01 · [Uniswap_v2](./Date/2022-06-01_Uniswap_v2/README.md)
 
-    - [不受单个矿工控制的链上随机数生成方法](./Solidity/Other/random.md)
+- 2022-06-01 · [Compound：应用架构](./Date/2022-06-01_Compound_app_architecture/README.md)
 
-    - [最省GAS链上排序](./Solidity/Other/Save_Gas_Sort.md)
+- 2022-05-31 · [Compound](./Date/2022-05-31_Compound/README.md)
 
-    - [NFT 所有者 tokenID 快速查询](./Solidity/Other/NFT_Search.md)
+- 2022-05-31 · [Compound：快速了解](./Date/2022-05-31_Compound_quick_understand/README.md)
 
-    - [Solidity 智能合约开发流程](./Solidity/Other/Solidity_Development_Process.md)
+- 2022-05-09 · [抢跑机器人](./Date/2022-05-09_Running_Robot/README.md)
 
-    - [如何预测最低的 GasPrice](./Solidity/Other/Lowest_GasPrice.md)
+- 2022-05-09 · [一个简单的抢跑机器人模型](./Date/2022-05-09_Simple_Running_Robot/README.md)
 
-## 一点思考
-如何使用技术改善自己的人生，这是每个从业者要解决的首要问题。
+- 2022-05-08 · [搬砖交易机器人](./Date/2022-05-08_Moving_Exchange_Robot/README.md)
 
-- [2022年中展望](./Outlook/2022_MidYear.md)
+- 2022-05-08 · [三明治交易机器人](./Date/2022-05-08_Sandwich_Exchange_Robot/README.md)
 
-- [AI 时代下的 Web3 开发](./Outlook/ai&web3/README.md)
+- 2022-05-08 · [一个典型的三明治交易机器人模型](./Date/2022-05-08_Simple_Sandwich_Exchange_Robot/README.md)
 
-<!-- - [33357的目标](./Outlook/Target.md) -->
+- 2022-05-05 · [链上通信协议](./Date/2022-05-05_OnChainMessageProtocol/README.md)
 
-<!-- - [人生的边际效应](./Outlook/Marginal_Utility.md) -->
+- 2022-04-10 · [Dex_Cex 搬砖交易机器人](./Date/2022-04-10_Dex_Cex/README.md)
 
-<!-- - [2022年末总结](./Outlook/2022_End.md) -->
+- 2022-03-07 · [X2Y2: 必须修改的中心化NFT挂单奖励机制](./Date/2022-03-07_X2Y2_DecentralizedOrderReward/README.md)
 
-## 生态研究
+- 2022-03-01 · [Uniswap_v2：Pair合约解析](./Date/2022-03-01_Uniswap_v2_pair_understand/README.md)
 
-- [以太坊扩容：L2 详解](./Search/L2.md)
+- 2022-02-25 · [Uniswap_v2：Factory合约解析](./Date/2022-02-25_Uniswap_v2_factory_understand/README.md)
 
-- [BRC20 解析](./Search/brc20.md)
+- 2022-02-20 · [Uniswap_v2：Router合约解析](./Date/2022-02-20_Uniswap_v2_router_understand/README.md)
 
-- [ethscriptions 铭文链和哑合约](./Search/ethscriptions.md)
+- 2022-02-13 · [EIP1559下的GAS费设置](./Date/2022-02-13_EIP1559_GAS/README.md)
 
-## 套利机器人
-在区块链上实现盈利的机器人有不少种类，如果策略得当的话可以实现躺赚目标。这里会记录一些机器人的类型和实现。
+- 2022-02-08 · [RandomDAO事件](./Date/2022-02-08_RandomDAO/README.md)
 
-- [搬砖交易机器人](./Robot/Moving_Exchange_Robot/)
+- 2022-02-03 · [Uniswap_v2：项目白皮书](./Date/2022-02-03_Uniswap_v2_whitepaper/README.md)
 
-- [三明治交易机器人](./Robot/Sandwich_Exchange_Robot/)
+- 2022-02-02 · [Uniswap_v2：官方部署](./Date/2022-02-02_Uniswap_v2_official_deploy/README.md)
 
-- [抢跑机器人](./Robot/Running_Robot/)
+- 2022-01-29 · [Uniswap_v2：项目历史](./Date/2022-01-29_Uniswap_v2_project_history/README.md)
 
-- [MEV 是在为谁工作](./Robot/MEV_Who_are_you_working_for.md)
+- 2022-01-29 · [Uniswap_v2：快速了解](./Date/2022-01-29_Uniswap_v2_quick_understand/README.md)
 
-- [一个通用的套利交易模型](./Robot/TradeModel.md)
+- 2022-01-29 · [Uniswap_v2：快速部署](./Date/2022-01-29_Uniswap_v2_quick_deploy/README.md)
+
+<!-- - [33357的目标](./Date/2023-06-12_Target/README.md) -->
 
 ## 维护员
 
