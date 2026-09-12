@@ -34,9 +34,6 @@ tg: [smartcontractapps](https://t.me/smartcontractapps)
 
 wx：_33357xyz(备注sc-apps)
 
-<!-- discord: [智能合约应用](https://discord.gg/YjsvmyG84H) -->
-
-
 ## 时间排序
 
 按时间由新到旧排列；优先使用文章正文标注的日期，未标注日期的使用 Git 历史中最早的提交日期。
@@ -105,8 +102,6 @@ wx：_33357xyz(备注sc-apps)
 
 - 2023-09-01 · [Uniswap_v4：fees&hooks 合约解析](./Date/2023-09-01_Uniswap_v4_fees&hooks/README.md)
 
-- 2023-08-13 · [Uniswap_v4](./Date/2023-08-13_Uniswap_v4/README.md)
-
 - 2023-08-13 · [Uniswap_v4：poolManager 合约解析](./Date/2023-08-13_Uniswap_v4_poolManager/README.md)
 
 - 2023-08-06 · [uniswap_v4 合约结构解析](./Date/2023-08-06_Uniswap_v4_model/README.md)
@@ -155,29 +150,17 @@ wx：_33357xyz(备注sc-apps)
 
 - 2022-06-28 · [CheapSwap协议的诞生](./Date/2022-06-28_CheapSwap/README.md)
 
-- 2022-06-13 · [Compound：Comptroller合约解析](./Date/2022-06-13_Compound_comptroller_understand/README.md)
-
 - 2022-06-13 · [Compound：CToken合约解析](./Date/2022-06-13_Compound_cToken_understand/README.md)
 
 - 2022-06-13 · [最省GAS链上排序](./Date/2022-06-13_Save_Gas_Sort/README.md)
 
 - 2022-06-07 · [Compound：RateModel合约解析](./Date/2022-06-07_Compound_rateModel_understand/README.md)
 
-- 2022-06-01 · [Uniswap_v2](./Date/2022-06-01_Uniswap_v2/README.md)
-
 - 2022-06-01 · [Compound：应用架构](./Date/2022-06-01_Compound_app_architecture/README.md)
-
-- 2022-05-31 · [Compound](./Date/2022-05-31_Compound/README.md)
 
 - 2022-05-31 · [Compound：快速了解](./Date/2022-05-31_Compound_quick_understand/README.md)
 
-- 2022-05-09 · [抢跑机器人](./Date/2022-05-09_Running_Robot/README.md)
-
 - 2022-05-09 · [一个简单的抢跑机器人模型](./Date/2022-05-09_Simple_Running_Robot/README.md)
-
-- 2022-05-08 · [搬砖交易机器人](./Date/2022-05-08_Moving_Exchange_Robot/README.md)
-
-- 2022-05-08 · [三明治交易机器人](./Date/2022-05-08_Sandwich_Exchange_Robot/README.md)
 
 - 2022-05-08 · [一个典型的三明治交易机器人模型](./Date/2022-05-08_Simple_Sandwich_Exchange_Robot/README.md)
 
